@@ -86,5 +86,5 @@ This project is licensed under the **MIT License**.
 
 ---
 
-Made with ❤️ by [Your Name](https://github.com/rohit-kaushik0)
+Made with ❤️ by [Rohit Kaushik](https://github.com/rohit-kaushik0)
 

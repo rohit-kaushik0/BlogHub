@@ -3,6 +3,11 @@
 
 A simple Blog Application built using **Node.js, Express, and EJS** that allows users to create, edit, and view blog posts.
 
+## 🎥 Video Preview
+
+[![Watch the Video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.linkedin.com/feed/update/urn:li:activity:7301961724830658560/)
+
+
 ## 🚀 Features
 
 - 📝 Create, edit, and delete blog posts

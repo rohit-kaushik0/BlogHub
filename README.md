@@ -10,6 +10,8 @@ A simple Blog Application built using **Node.js, Express, and EJS** that allows 
 - 📂 Static files support (CSS, images, etc.)
 - 🔄 Express.js routing for handling requests
 
+
+
 ## 🏗️ Project Structure
 
 ```
@@ -44,7 +46,7 @@ blog-app/
 
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/yourusername/blog-app.git
+   git clone https://https://github.com/rohit-kaushik0/BlogHub.git
    cd blog-app
    ```
 
@@ -84,5 +86,5 @@ This project is licensed under the **MIT License**.
 
 ---
 
-Made with ❤️ by [Your Name](https://github.com/yourusername)
+Made with ❤️ by [Your Name](https://github.com/rohit-kaushik0)
 

@@ -1,0 +1,27 @@
+<%- include("partials/header") %>
+<main class="articles-container">
+    <h1>All Articles</h1>
+    
+    <% if (posts.length === 0) { %>
+        <p>No articles available. <a href="/create">Write one now</a>!</p>
+    <% } else { %>
+        <ul class="article-list">
+            <% posts.forEach(post => { %>
+                <li class="article-item">
+                    <header>
+                      <h2>
+                        <a href="/post/<%= post.id %>"><%= post.title %></a>
+                      </h2>
+                    </header>
+                    <section class="article-summary">
+                        <p><%= post.content.substring(0, 150) %>...</p>
+                    </section>
+                    
+                        <a href="/post/<%= post.id %>" class="read-more">Read More</a>
+                    
+                </li>
+            <% }) %>
+        </ul>
+    <% } %>
+</main>
+<%- include("partials/footer") %>

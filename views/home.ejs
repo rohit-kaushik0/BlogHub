@@ -1,0 +1,24 @@
+
+<%- include("partials/header") %>
+<main>
+    <h1>All Blog Posts</h1>
+
+    <a href="/create" class="btn">Create New Post</a>
+
+    <% if (posts.length > 0) { %>
+        <ul class="post-list">
+            <% posts.forEach(post => { %>
+                <li>
+                    <h2><a href="/post/<%= post.id %>"><%= post.title %></a></h2>
+                    <p><%= post.content.substring(0, 100) %>...</p>
+                    
+                </li>
+            <% }); %>
+        </ul>
+    <% } else { %>
+        <p>No posts available. Create one!</p>
+    <% } %>
+</main>
+
+<%- include("partials/footer") %>
+ 

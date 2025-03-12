@@ -62,7 +62,7 @@ blog-app/
 
 3. **Start the development server**
    ```sh
-   node app.js
+   node index.js
    ```
 
 4. **Open in browser**
@@ -81,7 +81,7 @@ blog-app/
 3. Create a **new web service** and link it to your GitHub repo
 4. Set the **start command** as:
    ```sh
-   node app.js
+   node index.js
    ```
 5. Deploy and get your live URL! 🎉
 
